@@ -8,6 +8,8 @@ if (!TOKEN) throw new Error("Missing TELEGRAM_TOKEN env var");
 
 const bot = new TelegramBot(TOKEN, { polling: true });
 
+//dddd
+
 // KFUPM Banner registration host (adjust if needed)
 const BASE = "https://banner9-registration.kfupm.edu.sa";
 const TERM_SEARCH_URL = `${BASE}/StudentRegistrationSsb/ssb/term/search`;
